@@ -1,5 +1,5 @@
 ESX = nil
-TriggerEvent('pkrp:getSharedObject', function(obj) ESX = obj end)
+TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 ESX.RegisterUsableItem('burner', function(source) ---## change to desired item which is to be used on drugsale
 	TriggerClientEvent('myy:huume', source)
@@ -59,7 +59,7 @@ AddEventHandler('stasiek_selldrugsv2:pay', function(drugToSell)
 			xPlayer.addAccountMoney(Config.account, drugToSell.price)
 		end
 	else
-		TriggerClientEvent('pkrp:showNotification', xPlayer.source, ('~r~NICE TRY DOG, ~n~ WAS IT WORTH IT ~n~YOU SCUM...')) -- Notification for exploiter / cheater
+		TriggerClientEvent('esx:showNotification', xPlayer.source, ('~r~NICE TRY DOG, ~n~ WAS IT WORTH IT ~n~YOU SCUM...')) -- Notification for exploiter / cheater
 		TriggerClientEvent('huijari:dickhead', source)
 	end
 end)
