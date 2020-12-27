@@ -1,10 +1,10 @@
 --##################################################--
---	        Original file : stasiek_selldrugsv2		--
---				Originally made by stasiek			--
---https://github.com/xxxstasiek/stasiek_selldrugsv2	--
---									                --
---		Modified and customized by Slerbamonsteri	--
---			Discord: Slerbamonsteri#5636			--
+--				Original file : stasiek_selldrugsv2											--
+--				Originally made by stasiek														--
+--		https://github.com/xxxstasiek/stasiek_selldrugsv2						--
+--																														--
+--			Modified and customized by Slerbamonsteri							--
+--					Discord: Slerbamonsteri#5636											--
 --##################################################--
 fx_version 'adamant'
 
