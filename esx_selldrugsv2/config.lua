@@ -1,7 +1,7 @@
 Config = {
-    requiredCops = 2, --If set to "0" and there's no cops online, it will spawn upon rejected drugsale two Cop peds, with weapons to try and harm the player selling drugs.
+    requiredCops = 0, --If set to "0" and there's no cops online, it will spawn upon rejected drugsale two Cop peds, with weapons to try and harm the player selling drugs.
     npcFightOnReject = true, --Added weapon to ped
-    account = 'black_money', --change to 'money' if you want
+    account = 'money', --change to 'money' if you want
     drugs = {
         ['weed_packaged'] = 200,
         ['cocaine_packaged'] = 600,
